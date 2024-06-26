@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-06-21T16:57:55 IST" name="Default suite" finished-at="2024-06-21T16:58:45 IST" duration-ms="49249">
+    <groups>
+    </groups>
+    <test started-at="2024-06-21T16:57:55 IST" name="Default test" finished-at="2024-06-21T16:58:45 IST" duration-ms="49249">
+      <class name="testcases.AmazonPage_test">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:testcases.AmazonPage_test@2d901eb0]" started-at="2024-06-21T16:57:56 IST" name="setUp" finished-at="2024-06-21T16:58:26 IST" duration-ms="30591" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyAmazonNextPage()[pri:0, instance:testcases.AmazonPage_test@2d901eb0]" started-at="2024-06-21T16:58:26 IST" name="verifyAmazonNextPage" finished-at="2024-06-21T16:58:42 IST" duration-ms="16097" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyAmazonNextPage -->
+        <test-method is-config="true" signature="close(org.testng.ITestResult)[pri:0, instance:testcases.AmazonPage_test@2d901eb0]" started-at="2024-06-21T16:58:42 IST" name="close" finished-at="2024-06-21T16:58:45 IST" duration-ms="2313" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyAmazonNextPage status=SUCCESS method=AmazonPage_test.verifyAmazonNextPage()[pri:0, instance:testcases.AmazonPage_test@2d901eb0] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- testcases.AmazonPage_test -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
